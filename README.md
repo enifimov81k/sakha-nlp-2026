@@ -178,12 +178,9 @@ This work is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/
 
 ### Domain Coverage
 - NER: Wikipedia only (encyclopedic register)
-- Sentiment: News + forum only (formal + informal, but excludes speech, literature, social media, administrative documents)
+- Sentiment: News + forum only (formal + informal)
+- 2015-2024 snapshot 
 
-### Generalization
-- Geographic: Primarily central Yakutsk dialect (northern/rural dialects untested)
-- Temporal: 2015-2024 snapshot (language evolution may degrade future performance)
-- Typological: Findings most applicable to other agglutinative Turkic languages
 
 ## Reproducibility
 
@@ -191,14 +188,7 @@ All experiments use:
 - Fixed random seed (42)
 - Deterministic algorithms enabled
 - Identical hyperparameters across model variants (for fair comparison)
-- Sentence-level data splits (SHA1-hashed for reproducibility)
 
 **Hardware:** Google Colab with Tesla T4 GPU (16GB VRAM)
 
-## Contact
-
-This repository contains the exact code and data used for our LREC 2026 submission. For questions or collaborations, please contact us after the review period.
-
-## Acknowledgments
-
-We thank the Sakha-speaking community for their support. All experiments were conducted using Google Colab infrastructure.
+This repository contains the exact code and data used for our LREC 2026 submission. 
