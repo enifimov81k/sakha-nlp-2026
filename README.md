@@ -60,8 +60,6 @@ Run `sakha-ner/Tokenizer_extension.ipynb` to extend mBERT and RuBERT vocabularie
 - Extends RuBERT: 120,138 → 131,502 tokens
 - Uses length-weighted subword averaging for embedding initialization
 
-**Runtime:** ~10-15 minutes per model on GPU
-
 #### 2. Train NER Models
 
 **mBERT:**
@@ -154,13 +152,6 @@ See `sakha-sa/English_annotation_guidelines.md` for detailed instructions:
 - **Class weighting:** Inverse frequency weighting for 54% neutral dominance
 - **Evaluation:** Weighted F1 (primary), macro F1, per-class precision/recall
 
-## Citation
-
-If you use these resources, please cite our LREC 2026 paper:
-```bibtex
-[Citation will be added after publication]
-```
-
 ## License
 
 This work is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
@@ -180,7 +171,6 @@ This work is licensed under [CC-BY-NC 4.0](https://creativecommons.org/licenses/
 - NER: Wikipedia only (encyclopedic register)
 - Sentiment: News + forum only (formal + informal)
 - 2015-2024 snapshot 
-
 
 ## Reproducibility
 
