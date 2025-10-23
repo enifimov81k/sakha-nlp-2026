@@ -1,0 +1,15 @@
+== Input sizes ==
+Kyym input                   n= 497 | neu  284 (57.1%)  pos  124 (24.9%)  neg   89 (17.9%)
+Forum input                  n= 301 | neu  150 (49.8%)  pos   66 (21.9%)  neg   85 (28.2%)
+
+== Output folders ==
+data\splits\pooled_5fold
+data\splits\per_corpus_80_10_10
+
+== Per-corpus 80-10-10 splits ==
+Kyym train                   n= 397 | neu  227 (57.2%)  pos   99 (24.9%)  neg   71 (17.9%)
+Kyym val                     n=  50 | neu   28 (56.0%)  pos   13 (26.0%)  neg    9 (18.0%)
+Kyym test                    n=  50 | neu   29 (58.0%)  pos   12 (24.0%)  neg    9 (18.0%)
+Forum train                  n= 240 | neu  119 (49.6%)  pos   53 (22.1%)  neg   68 (28.3%)
+Forum val                    n=  30 | neu   15 (50.0%)  pos    7 (23.3%)  neg    8 (26.7%)
+Forum test                   n=  31 | neu   16 (51.6%)  pos    6 (19.4%)  neg    9 (29.0%)
